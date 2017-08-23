@@ -1,0 +1,5 @@
+rootProject.name = 'Action_Sheet'
+
+include ':app'
+include ':react-native-action-sheet'
+project(':react-native-action-sheet').projectDir = new File(settingsDir, '../node_modules/@yfuks/react-native-action-sheet/android')
